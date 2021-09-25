@@ -1,0 +1,33 @@
+{
+    "name": "kenowlee/chia-price",
+    "type": "library",
+    "description": "Buscando e Convertendo o Preço da Chia Network (XCH) para Real BRL",
+    "keywords": [
+        "chia",
+        "blockchain",
+        "real",
+        "brl",
+        "brasil",
+        "xch",
+        "usd"
+    ],
+    "homepage": "https://github.com/kenowlee/chia-price",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ronaldo Santos",
+            "email": "ronaldo.nasa@gmail.com",
+            "homepage": "https://github.com/kenowlee",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "guzzlehttp/guzzle": "~7.2|~6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chia\\": "src"
+        }
+    }
+}
